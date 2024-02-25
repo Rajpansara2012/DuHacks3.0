@@ -1,0 +1,62 @@
+"body {" +\n
+"font-family: Arial, Helvetica, sans-serif;" +\n
+"margin: 0;" +\n
+"}" +\n
+"" +\n
+".navbar {" +\n
+"overflow: hidden;" +\n
+"background-color: #333;" +\n
+"}" +\n
+"" +\n
+".navbar a {" +\n
+"float: left;" +\n
+"font-size: 16px;" +\n
+"color: white;" +\n
+"text-align: center;" +\n
+"padding: 14px 16px;" +\n
+"text-decoration: none;" +\n
+"}" +\n
+"" +\n
+".subnav {" +\n
+"float: left;" +\n
+"overflow: hidden;" +\n
+"}" +\n
+"" +\n
+".subnav .subnavbtn {" +\n
+"font-size: 16px;" +\n
+"border: none;" +\n
+"outline: none;" +\n
+"color: white;" +\n
+"padding: 14px 16px;" +\n
+"background-color: inherit;" +\n
+"font-family: inherit;" +\n
+"margin: 0;" +\n
+"}" +\n
+"" +\n
+".navbar a:hover, .subnav:hover .subnavbtn {" +\n
+"background-color: red;" +\n
+"}" +\n
+"" +\n
+".subnav-content {" +\n
+"display: none;" +\n
+"position: absolute;" +\n
+"left: 0;" +\n
+"background-color: red;" +\n
+"width: 100%;" +\n
+"z-index: 1;" +\n
+"}" +\n
+"" +\n
+".subnav-content a {" +\n
+"float: left;" +\n
+"color: white;" +\n
+"text-decoration: none;" +\n
+"}" +\n
+"" +\n
+".subnav-content a:hover {" +\n
+"background-color: #eee;" +\n
+"color: black;" +\n
+"}" +\n
+"" +\n
+".subnav:hover .subnav-content {" +\n
+"display: block;" +\n
+"}" +\n

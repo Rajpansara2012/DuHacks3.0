@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white
+  }
+
+  .homeDiv {
+    @apply text-center text-white
+  }
+
+}
+
+.cm-scroller::-webkit-scrollbar {
+  display: none;
+}
